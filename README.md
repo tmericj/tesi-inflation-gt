@@ -105,7 +105,10 @@ Modellazione econometrica:
 - **Benchmark robusto** con gestione outlier e errori HC0.
 - **Valutazione completa** con test Clark-West per modelli nested.
 
-## Citazioni
+
+## Informazioni Tecniche
+
+### Citazioni
 
 Se utilizzi questo codice per ricerca accademica, cita:
 
@@ -120,13 +123,13 @@ Se utilizzi questo codice per ricerca accademica, cita:
 }
 ```
 
-## Autore
+### Autore
 - Nome: Tommaso Merici
 - Matricola: 873042
 - Corso: Laurea Magistrale in Economia e Finanza
 - Università: Ca' Foscari Venezia
 
-## Relatore
+### Relatore
 - Prof. Davide Raggi
 
 ### Contatti
