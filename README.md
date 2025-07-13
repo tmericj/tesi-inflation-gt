@@ -129,12 +129,13 @@ Se utilizzi questo codice per ricerca accademica, cita:
 ## Relatore
 - Prof. Davide Raggi
 
-**Contatti**
+### Contatti
 * Email: tommaso.merici99@gmail.com
 * LinkedIn: Tommaso Merici (https://www.linkedin.com/in/tommaso-merici-303b79293/)
 * GitHub: @tmericj
 
-**Licenza**: questo progetto è distribuito sotto licenza MIT.
+### Licenza
+Questo progetto è distribuito sotto licenza MIT.
 
 
 ## ❓ FAQ
