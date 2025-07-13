@@ -1,0 +1,100 @@
+{
+    "timestamp": "2025-06-04T16:31:38.679521",
+    "configurazione": {
+        "schema_previsione": "rolling",
+        "finestra_iniziale": 180,
+        "orizzonti": [
+            1,
+            3,
+            6,
+            12
+        ],
+        "alpha_level": 0.05,
+        "n_bootstrap_spa": 1000
+    },
+    "modelli": {
+        "Base_Outliers": {
+            "order": [
+                1,
+                0,
+                1
+            ],
+            "seasonal_order": [
+                0,
+                0,
+                0,
+                12
+            ],
+            "exog_vars_base": [
+                "d_outlier_2022_01_1m",
+                "d_outlier_2022_10_1m"
+            ],
+            "gt_vars_lags": {}
+        },
+        "GT_Tematico_L1": {
+            "order": [
+                1,
+                0,
+                1
+            ],
+            "seasonal_order": [
+                0,
+                0,
+                0,
+                12
+            ],
+            "exog_vars_base": [
+                "d_outlier_2022_01_1m",
+                "d_outlier_2022_10_1m"
+            ],
+            "gt_vars_lags": {
+                "indice_Tematico_GT_SA_diff1": 1
+            }
+        },
+        "GT_Inflazione_L3": {
+            "order": [
+                1,
+                0,
+                1
+            ],
+            "seasonal_order": [
+                0,
+                0,
+                0,
+                12
+            ],
+            "exog_vars_base": [
+                "d_outlier_2022_01_1m",
+                "d_outlier_2022_10_1m"
+            ],
+            "gt_vars_lags": {
+                "indice_Inflazione_GT_PCA_SA_diff1": 3
+            }
+        },
+        "GT_Entrambi": {
+            "order": [
+                1,
+                0,
+                1
+            ],
+            "seasonal_order": [
+                0,
+                0,
+                0,
+                12
+            ],
+            "exog_vars_base": [
+                "d_outlier_2022_01_1m",
+                "d_outlier_2022_10_1m"
+            ],
+            "gt_vars_lags": {
+                "indice_Inflazione_GT_PCA_SA_diff1": 3,
+                "indice_Tematico_GT_SA_diff1": 1
+            }
+        }
+    },
+    "risultati_summary": {
+        "n_modelli_testati": 4,
+        "n_metriche_calcolate": 16
+    }
+}

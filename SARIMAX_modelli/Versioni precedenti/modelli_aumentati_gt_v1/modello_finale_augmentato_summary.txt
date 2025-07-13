@@ -1,0 +1,31 @@
+Modello: Base + GT_Infl(lag3) + GT_Tematico(lag1)
+AIC: 64.498, BIC: 89.092
+Covarianza: Robust
+                                 SARIMAX Results                                  
+==================================================================================
+Dep. Variable:     NIC_destag_ISTAT_diff1   No. Observations:                  248
+Model:                   SARIMAX(1, 0, 1)   Log Likelihood                 -25.249
+Date:                    Sun, 01 Jun 2025   AIC                             64.498
+Time:                            19:01:11   BIC                             89.092
+Sample:                        05-01-2004   HQIC                            74.398
+                             - 12-01-2024                                         
+Covariance Type:                   robust                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+d_outlier_2022_01_1m                       1.1343      0.270      4.194      0.000       0.604       1.664
+d_outlier_2022_10_1m                       3.4938      0.117     29.848      0.000       3.264       3.723
+indice_Inflazione_GT_PCA_SA_diff1_lag3     0.0243      0.015      1.676      0.094      -0.004       0.053
+indice_Tematico_GT_SA_diff1_lag1          -0.0385      0.026     -1.494      0.135      -0.089       0.012
+ar.L1                                      0.9577      0.031     31.146      0.000       0.897       1.018
+ma.L1                                     -0.7696      0.068    -11.375      0.000      -0.902      -0.637
+sigma2                                     0.0631      0.007      9.298      0.000       0.050       0.076
+===================================================================================
+Ljung-Box (L1) (Q):                   0.90   Jarque-Bera (JB):                14.42
+Prob(Q):                              0.34   Prob(JB):                         0.00
+Heteroskedasticity (H):               3.67   Skew:                            -0.31
+Prob(H) (two-sided):                  0.00   Kurtosis:                         4.00
+===================================================================================
+
+Warnings:
+[1] Quasi-maximum likelihood covariance matrix used for robustness to some misspecifications; calculated using the observed information matrix (complex-step) described in Harvey (1989).
