@@ -72,7 +72,8 @@ tesi-inflation-gt/
 ├── 📂 SARIMAX_modelli/                       # Output modelli finali
 ├── 📂 Official_4/                            # Dati query Google Trends
 ├── 📂 HNKPC/                                 # Test Hybrid NKPC
-├── 📂 MIDAS.ipynb                            # Test modelli MIDAS
+├──–   MIDAS.ipynb                            # Test modelli MIDAS
+├──–   LICENSE
 │
 └── 📄 README.md                              # Questo file
 ```
@@ -119,24 +120,21 @@ Se utilizzi questo codice per ricerca accademica, cita:
 }
 ```
 
-Autore
-Tommaso Merici
-Matricola: 873042
-Corso di Laurea Magistrale in Economia e Finanza
-Università Ca' Foscari Venezia
+## Autore
+- Nome: Tommaso Merici
+- Matricola: 873042
+- Corso: Laurea Magistrale in Economia e Finanza
+- Università: Ca' Foscari Venezia
 
-Relatore:
+## Relatore
+- Prof. Davide Raggi
 
-Prof. Davide Raggi
+**Contatti**
+* Email: tommaso.merici99@gmail.com
+* LinkedIn: Tommaso Merici (https://www.linkedin.com/in/tommaso-merici-303b79293/)
+* GitHub: @tmericj
 
-Contatti
-
-Email: tommaso.merici99@gmail.com
-LinkedIn: Tommaso Merici (https://www.linkedin.com/in/tommaso-merici-303b79293/)
-GitHub: @tmericj
-
-Licenza
-Questo progetto è distribuito sotto licenza MIT.
+**Licenza**: questo progetto è distribuito sotto licenza MIT.
 
 
 ## ❓ FAQ
