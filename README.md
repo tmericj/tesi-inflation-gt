@@ -42,6 +42,7 @@ La ricerca valuta se l'integrazione di indicatori derivati da Google Trends poss
 
 
 ## Struttura del Repository
+```
 tesi-inflation-gt/
 │
 ├── 📂 Notebook/                                # Jupyter notebooks principali
@@ -74,26 +75,26 @@ tesi-inflation-gt/
 ├── 📂 MIDAS.ipynb                            # Test modelli MIDAS
 │
 └── 📄 README.md                              # Questo file
-
+```
 
 
 
 ## Esecuzione Sequenziale
 Costruzione indicatori GT:
-jupyter notebook Notebook/PCA_GT_Query_ibrida_v6.ipynb
+- jupyter notebook Notebook/PCA_GT_Query_ibrida_v6.ipynb
 
 Preparazione dati NIC:
-jupyter notebook Notebook/Indice_NIC_generale.ipynb
+- jupyter notebook Notebook/Indice_NIC_generale.ipynb
 
 Analisi serie temporali (sequenza):
-jupyter notebook Notebook/Destagionalizzazione_GT.ipynb
-jupyter notebook Notebook/Fase_2_staz_e_diff1.ipynb
-jupyter notebook Notebook/Fase_3_CCF.ipynb
-jupyter notebook Notebook/Fase_4_Granger.ipynb
+- jupyter notebook Notebook/Destagionalizzazione_GT.ipynb
+- jupyter notebook Notebook/Fase_2_staz_e_diff1.ipynb
+- jupyter notebook Notebook/Fase_3_CCF.ipynb
+- jupyter notebook Notebook/Fase_4_Granger.ipynb
 
 Modellazione econometrica:
-jupyter notebook Notebook/SARIMAX_base_HAC_pulse_outlier.ipynb
-jupyter notebook Notebook/SARIMAX_e_GT_outofsample.ipynb
+- jupyter notebook Notebook/SARIMAX_base_HAC_pulse_outlier.ipynb
+- jupyter notebook Notebook/SARIMAX_e_GT_outofsample.ipynb
 
 
 ## Contributi Metodologici
